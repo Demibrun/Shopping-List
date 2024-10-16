@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="Shopping.css">
+    
+</head>
+<body>
+    <section>
+        <h1>Item List</h1>
+        <div>
+            <input type="text" id="item" placeholder="Item">
+            <input type="number" id="quantity" placeholder="Quantity">
+            <input type="number" id="price" placeholder="Price">
+            <button onclick="addItem()">Add Item</button>
+        </div>
+        <p id="total">Total: $0</p>
+        <table>
+            <tbody id="item-list">
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+<script src="Shopping.js"></script>
+</html>
